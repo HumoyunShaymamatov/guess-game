@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css"
+      integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Guess My Number!</title>
+  </head>
+  <body>
+    <div class="modul hidden">
+      <div class="overlay hidden"></div>
+      <button class="end restart btn hidden">Restart</button>
+    </div>
+    <header>
+      <h1>O`ylagan sonimni toping!</h1>
+      <p class="between">(1dan 20gacha)</p>
+      <button class="btn restart restart-main">Restart</button>
+      <div class="number">?</div>
+    </header>
+    <main>
+      <section class="left">
+        <input type="number form-control" class="guess" />
+        <button class="btn check">Tekshirish</button>
+      </section>
+      <section class="right">
+        <p class="message">⬅Tahminingizni kiriting</p>
+        <p class="label-score">Natija: <span class="score">5</span></p>
+        <p class="label-highscore">
+          🥇 Rekord: <span class="highscore">0</span>
+        </p>
+      </section>
+    </main>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.min.js"
+      integrity="sha384-PsUw7Xwds7x08Ew3exXhqzbhuEYmA2xnwc8BuD6SEr+UmEHlX8/MCltYEodzWA4u"
+      crossorigin="anonymous"
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html>
